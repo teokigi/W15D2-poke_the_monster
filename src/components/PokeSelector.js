@@ -3,8 +3,6 @@ import React from 'react';
 
 const PokeSelector = (props) => {
 
-    // const options = console.log(props.monsters);
-
     if (props.monsters.length == 0 ){
 
         return null;
